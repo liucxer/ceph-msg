@@ -3,7 +3,7 @@ project(ceph_msg)
 
 include_directories ("${PROJECT_SOURCE_DIR}")
 set(CMAKE_CXX_STANDARD 17)
-set(ENV{PKG_CONFIG_PATH} "/usr/local/Cellar/openssl@1.1/1.1.1k/lib/pkgconfig:/usr/local/Cellar/nss/3.64/lib/pkgconfig")
+set(ENV{PKG_CONFIG_PATH} "/usr/local/Cellar/openssl@1.1/1.1.1m/lib/pkgconfig:/usr/local/Cellar/nss/3.73.1/lib/pkgconfig")
 FIND_PACKAGE(PkgConfig REQUIRED)
 
 set(msg_srcs
